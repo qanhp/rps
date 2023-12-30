@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         visual.firstChild.textContent = "You: " + "Paper";
         visual.firstChild.nextSibling.textContent = " vs ";
         visual.lastChild.textContent = "Computer: " + computer.charAt(0).toUpperCase() + computer.slice(1);
+        winner();
     }
     const choseScissor = function() {
         let computer = rng();
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         visual.firstChild.textContent = "You: " + "Scissor";
         visual.firstChild.nextSibling.textContent = " vs ";
         visual.lastChild.textContent = "Computer: " + computer.charAt(0).toUpperCase() + computer.slice(1);
+        winner();
     }
     
     let win = "";
