@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
 #header {
-    color: red;
-    font-size: 35px;
-    padding: 20px;
+    /* color: red; */
+    /* font-size: 35px; */
+    padding: 40px 0px;
     display: flex;
+    margin-bottom: 30px;
+    font-size: 32px;
     justify-content: center;
     margin-bottom: 30px;
+    font-size: 32px;
+    color: #ffc13b;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
     /* display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px; */
+    background-color: darkgrey;
+    
+}
+#text-1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#text-2 {
+    font-weight: 500;
     
 }
 
@@ -36,6 +57,14 @@ body {
     margin-bottom: 30px;
 }
 
+#playerChoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
 .buttons {
     display: flex;
     gap: 25px;
@@ -46,10 +75,11 @@ body {
 .option {
     font-size: 20px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     min-width: 110px;
     min-height: 50px;
-    background-color: rgb(77, 52, 52)
+    background-color: lightgrey;
+    border: none;
 }
 
 .punktestand {
